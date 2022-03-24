@@ -115,8 +115,10 @@
 > -h, --help display help for command
 >
 > Commands:
-> getall            get all contacts
-> set               delete, get, update or create a contact
+> getall            
+> get all contacts
+> set
+> delete, get, update or create a contact
 >
 > help [command] display help for command
 
