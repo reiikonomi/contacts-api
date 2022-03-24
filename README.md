@@ -3,14 +3,14 @@
 ### Set up the project
 
 - First clone this repository in your machine
-- Open the terminal and run <npm install>
+- Open the terminal and run ```npm install```
 - Then ```cd contact-cli```
-- Once you're in contact-cli directory run <npm install>
-- Then <npm link>
+- Once you're in contact-cli directory run ```npm install```
+- Then ```npm link```
 
-### Starting the api
+## Starting the api
 
-- To start the api simply write <npm start> in the contact-api terminal
+- To start the api simply write ```npm start``` in the contact-api terminal
 
 ###URL ENDPOINTS
 
@@ -59,13 +59,16 @@
 - Create a contact:
   - POST http://localhost:5000/api/v1/contacts/create-contact
   - body:
+  ```
     {
     "firstName":"testing",
     "lastName": "testing1",
     "email":"testing1@gmail.com",
     "phoneNumber":"+355671234567"
     }
+  ```
   - response:
+  ```
     {
     "status": "ok",
     "data": {
@@ -77,19 +80,23 @@
     "\_\_v": 0
     }
     }
+  ```
 - Delete a contact:
   - DELETE http://localhost:5000/api/v1/contacts/contact-by-id/:id
 - Update a contact:
   - PATCH http://localhost:5000/api/v1/contacts/update-contact/:id
   - body:
-    {
+   ```
+   {
     "firstName":"testing",
     "lastName": "testing1",
     "email":"testing1@gmail.com",
     "phoneNumber":"+355673493391"
     }
+  ```
   - response:
-    {
+   ```
+   {
     "status": "ok",
     "data": {
     "\_id": "623bae4533144ffb830ccd6f",
@@ -100,12 +107,13 @@
     "\_\_v": 0
     }
     }
-
+   ```
+    
 ### Cli information
 
-- After setting up the project open a git bash terminal and <cd contact-cli>
+- After setting up the project open a git bash terminal and ```cd contact-cli```
 - IMPORTANT!!! Make sure the api is running at the same time in the other terminal.
-- Run $<contact> in the git bash terminal
+- Run $```contact``` in the git bash terminal
 
   - response
 
@@ -124,8 +132,8 @@
 >
 > help [command] display help for command
 
-- Run $<contact getall> to find all contacts
-- Run $<contact set delete> and when ?<Enter the id of the contact that you want to delete> simply type the id to delete a contact
-- Run $<contact set getbyid> and when ?<Enter the id of the contact that you want to find> simply type the id to find a contact by id
-- Run $<contact set create> and answer the questions about the data to create a contact
-- Run $<contact set update> and answer the questions about the data to update a contact
+- Run $```contact getall``` to find all contacts
+- Run $```contact set delete``` and when ?```Enter the id of the contact that you want to delete``` simply type the id to delete a contact
+- Run $```contact set getbyid``` and when ?```Enter the id of the contact that you want to find``` simply type the id to find a contact by id
+- Run $```contact set create``` and answer the questions about the data to create a contact
+- Run $```contact set update``` and answer the questions about the data to update a contact
