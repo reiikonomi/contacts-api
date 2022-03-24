@@ -137,3 +137,18 @@
 - Run $```contact set getbyid``` and when ?```Enter the id of the contact that you want to find``` simply type the id to find a contact by id
 - Run $```contact set create``` and answer the questions about the data to create a contact
 - Run $```contact set update``` and answer the questions about the data to update a contact
+
+
+### Metrics
+
+- Creating a contact with over 1000 contacts in the database
+  - [https://github.com/onomdev/contacts-api/blob/main/screenshots/create.png?raw=true]
+
+
+
+
+
+
+
+
+
