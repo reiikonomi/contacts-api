@@ -113,7 +113,7 @@
 
 - After setting up the project open a git bash terminal and ```cd contact-cli```
 - IMPORTANT!!! Make sure the api is running at the same time in the other terminal.
-- Run $```contact``` in the git bash terminal
+- Run ```$ contact``` in the git bash terminal
 
   - response
 
@@ -132,11 +132,11 @@
 >
 > help [command] display help for command
 
-- Run $```contact getall``` to find all contacts
-- Run $```contact set delete``` and when ?```Enter the id of the contact that you want to delete``` simply type the id to delete a contact
-- Run $```contact set getbyid``` and when ?```Enter the id of the contact that you want to find``` simply type the id to find a contact by id
-- Run $```contact set create``` and answer the questions about the data to create a contact
-- Run $```contact set update``` and answer the questions about the data to update a contact
+- Run ```$ contact getall``` to find all contacts
+- Run ```$ contact set delete``` and when ```? Enter the id of the contact that you want to delete``` simply type the id to delete a contact
+- Run ```$ contact set getbyid``` and when ```? Enter the id of the contact that you want to find``` simply type the id to find a contact by id
+- Run ```$ contact set create``` and answer the questions about the data to create a contact
+- Run ```$ contact set update``` and answer the questions about the data to update a contact
 
 
 ### Metrics
