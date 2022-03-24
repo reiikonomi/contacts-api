@@ -142,16 +142,21 @@
 ### Metrics
 
 - Creating a contact with over 1000 contacts in the database
-![create](https://user-images.githubusercontent.com/94234882/159981698-230701dd-8e8e-42fa-ba13-d2f5da803bd7.png)
+
+  - ![create](https://user-images.githubusercontent.com/94234882/159981698-230701dd-8e8e-42fa-ba13-d2f5da803bd7.png)
 
 - Updating a contact with over 1000 contacts in the database
-![update](https://user-images.githubusercontent.com/94234882/159981828-e6c63f77-3a63-4062-9a17-141c75e33ee7.png)
+
+  - ![update](https://user-images.githubusercontent.com/94234882/159981828-e6c63f77-3a63-4062-9a17-141c75e33ee7.png)
 
 - Deleting a contact with over 1000 contacts in the database
-![delete](https://user-images.githubusercontent.com/94234882/159981922-f346c935-5589-4de8-8de9-3af73db5e2a4.png)
+
+  - ![delete](https://user-images.githubusercontent.com/94234882/159981922-f346c935-5589-4de8-8de9-3af73db5e2a4.png)
 
 - Get a single contact with over 1000 contacts in the database
-![getbyid](https://user-images.githubusercontent.com/94234882/159982042-c35dc904-eb2d-4483-b9bd-2d2912361741.png)
+
+  - ![getbyid](https://user-images.githubusercontent.com/94234882/159982042-c35dc904-eb2d-4483-b9bd-2d2912361741.png)
 
 - Get all contacts with over 1000 contacts in the database
-![getall](https://user-images.githubusercontent.com/94234882/159982103-8149e46c-f443-473e-975c-6c54ab86ef36.png)
+  
+  - ![getall](https://user-images.githubusercontent.com/94234882/159982103-8149e46c-f443-473e-975c-6c54ab86ef36.png)
