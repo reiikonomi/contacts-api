@@ -12,7 +12,7 @@
 
 - To start the api simply write ```npm start``` in the contact-api terminal
 
-###URL ENDPOINTS
+### URL ENDPOINTS
 
 - Find all contacts:
   - GET http://localhost:5000/api/v1/contacts/get-all-contacts/
