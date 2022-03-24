@@ -1,4 +1,4 @@
-#Contacts Api
+#Contacts api
 
 ### Set up the project
 
