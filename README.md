@@ -4,7 +4,7 @@
 
 - First clone this repository in your machine
 - Open the terminal and run <npm install>
-- Then <cd contact-cli>
+- Then ```cd contact-cli```
 - Once you're in contact-cli directory run <npm install>
 - Then <npm link>
 
