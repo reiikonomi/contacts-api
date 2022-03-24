@@ -1,4 +1,4 @@
-#Contacts api
+# Contacts api
 
 ### Set up the project
 
@@ -17,6 +17,7 @@
 - Find all contacts:
   - GET http://localhost:5000/api/v1/contacts/get-all-contacts/
   - response:
+  ```
     {
     "contacts": [
     {
@@ -50,6 +51,7 @@
     "hasNextPage": true,
     "hasPreviousPage": false
     }
+  ```
 - Filtering by query:
   - GET http://localhost:5000/api/v1/contacts/get-all-contacts/?firstName=firstName&lastName=lastName&page=2&limit=10&email=email&phoneNumber=phoneNumber
 - Find one contact by id:
